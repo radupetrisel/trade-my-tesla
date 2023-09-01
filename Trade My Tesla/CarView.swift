@@ -5,6 +5,7 @@
 //  Created by Radu Petrisel on 01.09.2023.
 //
 
+import CoreML
 import SwiftUI
 
 struct CarView: View {
@@ -18,7 +19,13 @@ struct CarView: View {
     @State private var condition = 2
     
     private var tradeInValue: Double {
-        return 99_999
+        if let cars = try? Cars(configuration: MLModelConfiguration()) {
+            if let prediction = try? cars.prediction(model: Double(model), premium: Double(1 - premiumUpgrade), mileage: mileage, condition: Double(condition)) {
+                return prediction.price
+            }
+        }
+        
+        return 0
     }
     
     var body: some View {
