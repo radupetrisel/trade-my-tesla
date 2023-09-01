@@ -20,7 +20,7 @@ struct ContentView: View {
                 Text("This app is not endorsed by Tesla, and any price is entirely fictional.")
                 
                 NavigationLink {
-                    Text("Next view")
+                    CarView()
                 } label: {
                     Text("PROCEED")
                         .font(.system(size: 30))
