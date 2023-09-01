@@ -9,13 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack(spacing: 20) {
+                Image("logo")
+                    .resizable()
+                    .scaledToFit()
+                
+                Spacer()
+                
+                Text("This app is not endorsed by Tesla, and any price is entirely fictional.")
+                
+                NavigationLink {
+                    Text("Next view")
+                } label: {
+                    Text("PROCEED")
+                        .font(.system(size: 30))
+                }
+            }
+            .padding()
+            .foregroundStyle(.white)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(.teslaRed)
         }
-        .padding()
     }
 }
 

@@ -13,6 +13,7 @@
 		7C2FDB482AA1C26400061788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C2FDB472AA1C26400061788 /* Preview Assets.xcassets */; };
 		7C2FDB4F2AA1C8BE00061788 /* Cars.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7C2FDB4E2AA1C8BE00061788 /* Cars.mlmodel */; };
 		7C2FDB512AA1E13A00061788 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 7C2FDB502AA1E13A00061788 /* Readme.md */; };
+		7C2FDB532AA1E2CD00061788 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2FDB522AA1E2CD00061788 /* ShapeStyle+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		7C2FDB472AA1C26400061788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C2FDB4E2AA1C8BE00061788 /* Cars.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Cars.mlmodel; sourceTree = "<group>"; };
 		7C2FDB502AA1E13A00061788 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		7C2FDB522AA1E2CD00061788 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7C2FDB4E2AA1C8BE00061788 /* Cars.mlmodel */,
 				7C2FDB402AA1C26400061788 /* Trade_My_TeslaApp.swift */,
 				7C2FDB422AA1C26400061788 /* ContentView.swift */,
+				7C2FDB522AA1E2CD00061788 /* ShapeStyle+Extensions.swift */,
 				7C2FDB442AA1C26400061788 /* Assets.xcassets */,
 				7C2FDB462AA1C26400061788 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				7C2FDB432AA1C26400061788 /* ContentView.swift in Sources */,
 				7C2FDB412AA1C26400061788 /* Trade_My_TeslaApp.swift in Sources */,
 				7C2FDB4F2AA1C8BE00061788 /* Cars.mlmodel in Sources */,
+				7C2FDB532AA1E2CD00061788 /* ShapeStyle+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
